@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Phrases by Pedro Almeida</title>
+    <link rel="stylesheet" href="CSS\styles.css">
+    <script src="JS\index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet"> 
+    
+</head>
+
+<body>
+    <header>
+        <h1>Star Dev By Pedro Almeida</h1>
+    </header>
+
+    <main>
+        <section class="cards-main">
+            <div class="card-container">
+                <div class="card-main">
+                    <span> Characters </span>
+                    <h2 id="people">Loading...</h2>
+                </div>
+                <img src="./IMG/darth.svg" alt="image person">
+            </div>
+
+            <div class="card-container">
+                <div class="card-main">
+                    <span> Starships </span>
+                    <h2 id="starships">Loading...</h2>
+                </div>
+                <img src="./IMG/starship.svg" alt="image starships">
+            </div>
+
+            <div class="card-container">
+                <div class="card-main">
+                    <span> Planets </span>
+                    <h2 id="planets">Loading...</h2>
+                </div>
+                <img src="./IMG/planet.svg" alt="image planet">
+            </div>
+
+        </section>
+        
+        <section class="phrases-container">
+            <button id="btn-phrases" onclick="loadPhrase()">Read a sentence! </button>
+            ><p id="phrase"></p>
+        </section>
+        
+    </main>
+
+</body>
+
+</html>
